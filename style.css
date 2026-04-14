@@ -1,0 +1,50 @@
+#calculatrice{
+    background:#F5A623;
+    border-radius: 28px;
+    border: 3px solid #C87800;
+    padding: 20px 18px 24px ;
+    width: 260px;
+    box-shadow: 0 8px #B06000, 0 10px 20px rgb(0, 0, 0.35)
+
+}
+#solaire {
+background: black ;
+border: 2px solid black ;
+height:40px ;
+width: 110px;
+border-radius:11px ;
+margin-left: 142px;
+}
+#ecran{
+background: #a8C8e8 ;
+border: 2px solid black ;
+height:45px ;
+width: 247px;
+margin-top: 30px;
+}
+
+#touches{
+display: flex ;
+border:3px solid #7a4a10;
+background: #f0D9a0;
+height:52px ;
+align-items: center;
+justify-content: center;
+border-radius: 12px;
+font-size: 30px; 
+cursor: pointer;
+user-select:none;
+
+}
+#ztouche{
+    display:grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 8px;
+    margin-top: 20px;
+    
+}
+#touche:active{
+    transform:translateY(3px);
+    box-shadow: 0 1px 0 #5a3008;
+    
+}
