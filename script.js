@@ -1,7 +1,13 @@
-const info = document.querySelector("info")
+var nbractuel = "";//variable pour stocker le nombre actuel 
+var nbrprecedent = "";//variable pour stocker le nombre précédent
+var operateur = "";//variable pour stocker l'opérateur
 
-const allbtns = document.querySelectorAll('input[type="touches"]') 
+function afficher(nombre)
+{
+ document.getElementById("ecran").textContent = nombre;
+}
 
-function val(resutat){
-    form.fenetre.onclick =  form.fenetre.onclick + resutat
+function appuyerchiffres(chiffre){
+    
+
 }
