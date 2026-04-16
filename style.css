@@ -19,8 +19,10 @@ margin-left: 142px;
 background: #a8C8e8 ;
 border: 2px solid black ;
 height:45px ;
+text-align: right;
 width: 247px;
 margin-top: 30px;
+font-size: 30px;
 }
 
 #touches{
